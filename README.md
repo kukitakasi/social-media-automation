@@ -1,1 +1,1 @@
-We will provide you a copy of spreedsheet where you can your this code you don't have any time to create and design new sheet.
+<a href="https://docs.google.com/spreadsheets/d/1hFV8ghGvNdwabYWGVtwjJ8kz6LBcmaOpMm4w6CSa8ro/copy">Click here to copy the sheet and use it</a>

@@ -1,4 +1,4 @@
-var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("your sheet name");
+var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("AutoMediaPost");
 var pageIdFB = sheet.getRange('N2').getValue();
 var accessTokenFB = sheet.getRange('O2').getValue();
 var pageIdIG = sheet.getRange('L2').getValue();

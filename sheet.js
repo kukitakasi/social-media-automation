@@ -1,3 +1,4 @@
+//Copyright url: https://github.com/kukitakasi/social-media-automation
 var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("AutoMediaPost");
 var pageIdFB = sheet.getRange('N2').getValue();
 var accessTokenFB = sheet.getRange('O2').getValue();
@@ -20,6 +21,7 @@ var request = "Na";
 function aioTest (){
 
   // Facebook Condition Start Here
+  //Copyright url: https://github.com/kukitakasi/social-media-automation
 
   if(type == type1 && media1 == oneMedia && req == request){
   fbimga();
@@ -43,6 +45,7 @@ function aioTest (){
   fbvidstory();
   }
   // Instagram Condition Start Here
+  //Copyright url: https://github.com/kukitakasi/social-media-automation
 
   else if(type == type1 && media2 == oneMedia && req == request){
   igimga();
@@ -76,6 +79,7 @@ function aioTest (){
   }
 
   // Both Condition Start Here
+  //Copyright url: https://github.com/kukitakasi/social-media-automation
 
   else if(type == type1 && media3 == oneMedia && req == request){
     fbimga();
@@ -112,6 +116,7 @@ function aioTest (){
 
 }
   // Facebook Image Post Function
+  //Copyright url: https://github.com/kukitakasi/social-media-automation
 function fbimga() {
 
   var url = "https://graph.facebook.com/" + pageIdFB + "/photos";
@@ -133,6 +138,7 @@ function fbimga() {
 
 }
   // Facebook Video Post Function
+  //Copyright url: https://github.com/kukitakasi/social-media-automation
 function fbvida() {
 
   var url = "https://graph.facebook.com/" + pageIdFB + "/videos";
@@ -224,6 +230,7 @@ function igreela() {
     caption: message,
     share_to_feed: "false",
     //product_tags: producttags,
+    //Copyright url: https://github.com/kukitakasi/social-media-automation
     access_token: accessTokenIG
     };
 
@@ -293,6 +300,7 @@ function igvidstory() {
   
 }
 //execution program start here
+//Copyright url: https://github.com/kukitakasi/social-media-automation
 function postinstagrama(crId) {
 
     Utilities.sleep(5000);
@@ -314,6 +322,7 @@ function postinstagrama(crId) {
 }
 
 //retry execution program start here
+//Copyright url: https://github.com/kukitakasi/social-media-automation
 function retryPostInstagrama(crId) {
   var maxRetries = 5; 
   var retryCount = 0;

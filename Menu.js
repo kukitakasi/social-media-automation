@@ -1,7 +1,10 @@
+// Copyright https://github.com/kukitakasi/social-media-automation
+
+// first you need to run onOpen function in app script
 function onOpen() {
   createMenuWithSubMenu();
 }
-
+// this function create a menu tab in active spredsheet
 function createMenuWithSubMenu() {
   var advanceMenu = SpreadsheetApp.getUi().createMenu("(ง •̀_•́)ง   Λｄｖａｎｃｅ")
     .addItem("Setting D", "settingD")
